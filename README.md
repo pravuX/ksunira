@@ -19,24 +19,31 @@ Host listen together sessions with friends locally, vote the best songs and keep
 
 ### Steps
 1. **Start the Application**
+   
    Run the helper script to detect your LAN IP and start services:
    ```bash
    chmod +x start.sh && ./start.sh
    ```
    *(Or manually run `docker-compose up --build` if you prefer)*
 
-2. **Access the App**
+3. **Access the App**
+
    The script will print the access URL.
 
-3. **Host a new Session**
+5. **Host a new Session**
+   
    ![Landing](./screenshots/landing.png)
 
-4. **Share the QR Code**
+7. **Share the QR Code**
+
    Guests can scan the QR code on the host's screen to join immediately.
+   
    ![QR](./screenshots/qr.png)
 
-5. **Add Songs**
+8. **Add Songs**
+   
    ![client](./screenshots/client.png)
 
-6. **Enjoy!**
+10. **Enjoy!**
+    
    ![enjoy](./screenshots/enjoy.png)
